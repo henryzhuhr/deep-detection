@@ -1,0 +1,15 @@
+{
+  "name": "objectdetection",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/HenryZhuHR/ObjectDetection.git",
+  "author": "Henry Zhu <38650110+HenryZhuHR@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "devDependencies": {
+    "vuepress": "^2.0.0-beta.30"
+  }
+}
