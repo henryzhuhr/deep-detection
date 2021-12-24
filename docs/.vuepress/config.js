@@ -8,7 +8,9 @@ module.exports = {
     theme: '@vuepress/theme-default',
     themeConfig: {
         logo: 'https://vuejs.org/images/logo.png',
+        lastUpdated: 'Last Updated' // 文档更新时间：每个文件git最后提交的时间
     },
+
 }
 
 // import { defineUserConfig } from '@vuepress/cli'
