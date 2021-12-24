@@ -1,13 +1,28 @@
-# 目标检测全流程
+---
+home: true
+title: 首页
+# heroImage: /images/hero.png
+actions:
+  # - text: 快速上手
+  #   link: /zh/guide/getting-started.html
+  #   type: primary
+  #   type: secondary
+  - text: 数据集
+    link: ./dataset/README.md
+    type: secondary
+  - text: 模型训练
+    link: ./dataset/README.md
+    type: secondary
+  - text: 模型部署
+    link: ./dataset/README.md
+    type: secondary
+features:
+  - title: 数据集制作
+    details: 数据采集、预处理、数据标注、转换至可训练的标准数据
+  - title: 模型训练
+    details: 基于 ultralytics/yolov5 的模型训练与模型转换至 ONNX 
+  - title: 模型部署
+    details: 基于 NVIDIA TensorRT 框架 + Jetson Nano 部署
+footer: MIT Licensed | Copyright © 2021-present Henry Zhu
+---
 
-
-- [数据集的制作](./dataset/README.md)
-  - [数据采集与归档](#数据采集与归档)
-  - [数据集配置文件](#数据集配置文件)
-  - [数据预处理](#数据预处理)
-  - [数据标注](#数据标注)
-  - [转换至可训练的标准数据集](#转换至可训练的标准数据集)
-
-
-- [YOLOv5 的训练与转换](yolov5/train.md)
-- YOLOv5 的部署 <!-- - [YOLOv5 的训练](yolov5/development.md) (TODO) -->
