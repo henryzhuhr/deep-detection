@@ -1,3 +1,5 @@
+import { navbar } from './index'
+
 module.exports = {
     // 站点配置
     base: '/ObjectDetection/',
