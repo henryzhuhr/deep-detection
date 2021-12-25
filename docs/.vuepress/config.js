@@ -1,6 +1,6 @@
 module.exports = {
     // 站点配置
-    base: '/objectdetection/',
+    // base: '/objectdetection/',
     lang: 'zh-CN',
     title: '目标检测',
     description: '目标检测算法从模型训练到终端部署',
