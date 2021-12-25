@@ -8,13 +8,13 @@ actions:
   #   type: primary
   #   type: secondary
   - text: 数据集
-    link: ./dataset/README.md
+    link: /dataset/README.md
     type: secondary
   - text: 模型训练
-    link: ./dataset/README.md
+    link: /dataset/README.md
     type: secondary
   - text: 模型部署
-    link: ./dataset/README.md
+    link: /dataset/README.md
     type: secondary
 features:
   - title: 数据集制作
