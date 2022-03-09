@@ -5,11 +5,11 @@ const dataset = {
   children: [
     {
       text: "VOC2012数据",
-      link:"/dataset/voc2012/"
+      link:"/dataset/voc2012/README.md"
     },
     {
       text: "自定义数据集制作",
-      link: "docs/dataset/custom/README.md"
+      link: "/dataset/custom/README.md"
     },
   ],
 }
