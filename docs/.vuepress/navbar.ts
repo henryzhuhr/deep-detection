@@ -14,6 +14,19 @@ const dataset = {
   ],
 }
 
+const model={
+  text: '模型',
+  children: [
+    {
+      text: "yolov5",
+      link:"/model/yolov5/README.md"
+    },
+    {
+      text: "yolox",
+      link: "/model/yolox/README.md"
+    },
+  ],
+}
 
 
 export const navbar: NavbarConfig = [
@@ -25,6 +38,7 @@ export const navbar: NavbarConfig = [
     text: '参考',
     children: [
       dataset,
+      model
     ],
   },
 ]
