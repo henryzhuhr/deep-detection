@@ -21,10 +21,10 @@ const model={
       text: "yolov5",
       link:"/model/yolov5/README.md"
     },
-    {
-      text: "yolox",
-      link: "/model/yolox/README.md"
-    },
+    // {
+    //   text: "yolox",
+    //   link: "/model/yolox/README.md"
+    // },
   ],
 }
 
