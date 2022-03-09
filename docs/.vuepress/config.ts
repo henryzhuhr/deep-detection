@@ -1,15 +1,16 @@
-import { navbar } from './index'
+import { navbar } from './navbar'
 
 module.exports = {
     // 站点配置
-    base: '/ObjectDetection/',
+    base: '/deep-detection/',
     lang: 'zh-CN',
-    title: '你好， VuePress ！',
-    description: '这是我的第一个 VuePress 站点',
+    title: '目标检测',
+    description: '这是一个关于目标检测的故事',
   
     // 主题和它的配置
     theme: '@vuepress/theme-default',
     themeConfig: {
-      logo: 'https://vuejs.org/images/logo.png',
+      logo: '/images/logo.svg',
+      navbar:navbar
     },
   }

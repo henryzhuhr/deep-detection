@@ -11,19 +11,17 @@ actions:
     link: /dataset/README.md
     type: secondary
   - text: 模型训练
-    link: /dataset/README.md
+    link: /model/README.md
     type: secondary
   - text: 模型部署
-    link: /dataset/README.md
+    link: /deploy/README.md
     type: secondary
 features:
-  - title: 数据集制作
-    details: 数据采集、预处理、数据标注、转换至可训练的标准数据
+  - title: 数据集
+    details: 公开数据集处理流程、自定义数据制作流程
   - title: 模型训练
-    details: 基于 ultralytics/yolov5 的模型训练与模型转换至 ONNX 
+    details: 包括 yolov5、yolox 等主流模型
   - title: 模型部署
-    details: 基于 NVIDIA TensorRT 框架 + Jetson Nano 部署
+    details: 模型部署至硬件平台流程
 footer: MIT Licensed | Copyright © 2021-present Henry Zhu
 ---
-
-为什么啥也没有
