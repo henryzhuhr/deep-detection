@@ -8,7 +8,7 @@
 
 ### 快速使用
 
- **1.安装YOLOX**
+**1.安装YOLOX**
 
 ```
 git clone git@github.com:Megvii-BaseDetection/YOLOX.git
