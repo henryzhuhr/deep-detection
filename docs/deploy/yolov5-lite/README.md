@@ -29,9 +29,9 @@ $ python detect.py --source 0  # webcam
 
 ### 数据集训练 
 
-**1.标注:**使用[labelImg](https://github.com/tzutalin/labelImg) 对数据集进行标注
+**1.标注**:使用[labelImg](https://github.com/tzutalin/labelImg) 对数据集进行标注
 
-**2.数据集结构转换:**数据集结构与YOLOv5一致，结构如下所示：
+**2.数据集结构转换**:数据集结构与YOLOv5一致，结构如下所示：
 
 ```
 └── dataset-custom  # 数据集文件夹
@@ -46,11 +46,11 @@ $ python detect.py --source 0  # webcam
             └── val2017
 ```
 
-**4.修改数据集类别个数与名称与保存路径:**在文件路径`YOLOv5-Lite_DIR/data/cocol.yaml`中，将`names`修改为自己数据集所要识别的名称，将`nc`修改为自己数据集所要识别的类别个数,将`train`,`val`,`test`修改为数据集对应位置
+**3.修改数据集类别个数与名称与保存路径**:在文件路径`YOLOv5-Lite_DIR/data/cocol.yaml`中，将`names`修改为自己数据集所要识别的名称，将`nc`修改为自己数据集所要识别的类别个数,将`train`,`val`,`test`修改为数据集对应位置
 
 ![image-20220311185943426](./imaegs/image-1.png)
 
-**5.训练数据集**
+**4.训练数据集**
 
 在`/YOLOv5-Lite`下执行以下命令：
 
