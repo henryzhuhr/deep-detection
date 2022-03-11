@@ -29,9 +29,9 @@ $ python detect.py --source 0  # webcam
 
 ### 数据集训练 
 
-**1.标注：**使用[labelImg](https://github.com/tzutalin/labelImg) 对数据集进行标注
+**1.标注:**使用[labelImg](https://github.com/tzutalin/labelImg) 对数据集进行标注
 
-**2.数据集结构转换：**数据集结构与YOLOv5一致，结构如下所示：
+**2.数据集结构转换:**数据集结构与YOLOv5一致，结构如下所示：
 
 ```
 └── dataset-custom  # 数据集文件夹
