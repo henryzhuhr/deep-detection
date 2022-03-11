@@ -5,8 +5,7 @@
  YOLOv5-Lite是在YOLOv5的基础上进行一系列消融实验得到的更轻(Flops更小，内存更低，参数更少)，速度更快(增加shuffle channel, yolov5 head for channel reduce)的目标检测模型。当使用320×320输入帧时，在Raspberry Pi 4B上可以推断出至少10+ FPS)，并且更容易部署(删除Focus层和4个切片操作，将模型量化精度降低到一个可接受的范围)。
 
 ### 快速使用
-
- **1.安装YOLOv5-Lite**
+**1.安装YOLOv5-Lite**
 
 ```
 $ git clone https://github.com/ppogg/YOLOv5-Lite
