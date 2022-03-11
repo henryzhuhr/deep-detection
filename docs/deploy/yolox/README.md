@@ -79,7 +79,7 @@ python3 tools/train.py -f exps/example/custom/yolox_s.py -d 1 -b 64 --fp16  -c y
 
 训练所得结果保存在`YOLOX_DIR/YOLOX_outputs/yolox_s`中
 
-### 训练模型转换
+### 训练权重转换
 
 模型训练完成后需要将`.pth`文件转换为OpenVINO所需要的`.xml`与`.bin`文件，转化流程如下所示：
 
