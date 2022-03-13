@@ -44,7 +44,7 @@ python tools/demo.py image -f exps/example/custom/yolox_s.py -c yolox_s.pth --pa
 
 YOLOX的数据集训练有COCO和VOC两种方式，以下将简要概述使用COCO数据集训练的方法：
 
-**1.标注：**使用[labelImg](https://github.com/tzutalin/labelImg) 对数据集进行标注
+**1.标注**：使用[labelImg](https://github.com/tzutalin/labelImg) 对数据集进行标注
 
 **2.数据集结构转换**：参考[YOLO2COCO](https://github.com/RapidAI/YOLO2COCO)等项目将数据集结构转换为如下格式：
 
