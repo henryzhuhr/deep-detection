@@ -17,7 +17,7 @@ pip3 install -U pip && pip3 install -r requirements.txt
 pip3 install -v -e .  # or  python3 setup.py develop
 ```
 
-**2.安装[pycocotools](https://github.com/cocodataset/cocoapi)（可选）**
+**2.安装[pycocotools](https://github.com/cocodataset/cocoapi)**
 
 ```
 pip3 install cython; pip3 install 'git+https://github.com/cocodataset/cocoapi.git#subdirectory=PythonAPI'
