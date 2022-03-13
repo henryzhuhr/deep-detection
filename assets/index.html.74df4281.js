@@ -1,0 +1,1 @@
+const e={key:"v-ec2f0342",path:"/model/",title:"",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1646836426e3,contributors:[{name:"Henry Zhu",email:"38650110+HenryZhuHR@users.noreply.github.com",commits:1}]},filePathRelative:"model/README.md"};export{e as data};

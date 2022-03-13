@@ -1,0 +1,1 @@
+const e={key:"v-434b56af",path:"/model/yolox/",title:"",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1646836375e3,contributors:[{name:"Henry Zhu",email:"38650110+HenryZhuHR@users.noreply.github.com",commits:1}]},filePathRelative:"model/yolox/README.md"};export{e as data};
