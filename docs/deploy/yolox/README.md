@@ -59,13 +59,13 @@ VOC
     ├── ...
 ```
 
-**3.数据集转移：**将数据集`VOC`转移至`$YOLOX_DIR/datasets`
+**3.数据集转移**：将数据集`VOC`转移至`$YOLOX_DIR/datasets`
 
-**4.修改数据集保存路径与类别个数:**在文件路径`YOLOX_DIR/exps/example/custom/yolox_s.py`中，将`self.data_dir`修改为自己数据集的保存路径，将`self.num_classes`修改为自己数据集所要识别的类别个数
+**4.修改数据集保存路径与类别个数**：在文件路径`YOLOX_DIR/exps/example/custom/yolox_s.py`中，将`self.data_dir`修改为自己数据集的保存路径，将`self.num_classes`修改为自己数据集所要识别的类别个数
 
 ![rect](./imaegs/image-1.png)
 
-**5.修改数据集名称：**在文件路径` YOLOX_DIR/yolox/data/datasets/coco_classes.py`处将`COCO_CLASSES`修改为自己数据集所要识别的类别名称	
+**5.修改数据集名称**：在文件路径` YOLOX_DIR/yolox/data/datasets/coco_classes.py`处将`COCO_CLASSES`修改为自己数据集所要识别的类别名称	
 
 ![rect](./imaegs/image-2.png)
 
